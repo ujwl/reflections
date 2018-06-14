@@ -1,16 +1,22 @@
 //done chnages arranged with the changes
 // kya hua tea wada wo kasam wo irada
-What happens when you initialize a repository? Why do you need to do it?
+------------
+
+	What happens when you initialize a repository? Why do you need to do it?
+
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+--------
+	How can you use the staging area to make sure you have one commit per logical
+	change?
+	Using the stating area we can collectively add all the files that wil b  afected in the near furture due to the logical change that we are going to incoporate, thus we can add all files one by one. And when all the files have been included we can proceed to commit it under a united heading that clearly identifies the purpose of making the change.
 
-How can you use the staging area to make sure you have one commit per logical
-change?
-
-What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
-
+--------
+	What are some situations when branches would be helpful in keeping your history
+	organized? How would branches help?
+	
+----------
 How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
