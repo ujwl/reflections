@@ -1,0 +1,30 @@
+GIT looks like a great platform to learn and share files within the work-group.
+I have learned how to start my editor i.e sublime text from cmd and git-bash.
+--------- Continuing the journey to the first  lesson
+Comparing different verions of the same file to view the changes we have learned to use FC FileName1 FileName2. This compares the two files and let us figure out the differece in subtle and time-saving way.
+-------------
+	How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+	Well basically we might discover that the new code has a certain bug hich the previous version didn't have. So how to remove that bug, but first we need to identify the bug. So using the previous version of the file we vcan use FC commad to let the GIT help with identifying the modified part and then we can easily figure out the code that is causing the bug.
+---------
+Version Control System: GIT, SVN, GOOGLE DOC, WIKIPEDIA, DROPBOX, MANUAL SAVING
+Commit- SAving the changes to the file. Creating a newer version of the file.
+--------
+	By using the code -- Git log we can access all the changes that has ever been made to the file.
+	What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+	PROS OF git log- We can save only wjen we see ogical change so it will save us rather large number of irrelevent da=saved previos versions without any good changes.
+	CONS of git- The user will decide when to save the document depending on his judgement of logical change. Also sometimes the user might forget to save the changes, this can be disasterous.
+	PROS- Automatic saving
+	CONS- Large number of saved files.
+---------
+	Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+	The Hit allows to save multiple file in a single dave because these files are closely interdependent on esch other and changes in one require that change to be propogated in other file. So allowing to save multiple files at once permits us to keep the logical saves under one head.
+---------
+	How can you use the commands git log and git diff to view the history of files?
+	For using git diff place the two fileName after the -git diff- and the result will be changes needed to make to produce exactly same files.
+	Git log is used to take out the logs of all the file history ever saved.
+---------
+	How might using version control make you more confident to make changes that could break something?
+	I can find any ypo or error in the  code a lot more easier, so when I face such a situation, I know that I can easily deal with it. Also I can take lot more larger step in breaking in to code without having to worry without breakdown of the version control.
+---------
+	Now that you have your workspace set up, what do you want to try using Git for?
+	Until now I only know how to compare file log in git. Git log and Git Explore
